@@ -1,0 +1,51 @@
+#background-video_1 {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+   
+}
+#background-video_1 {
+    animation: fadeOut 15s;
+    visibility: hidden;
+}
+ @keyframes fadeOut {
+    0% { opacity: 1; 
+    visibility: visible;}
+    90% {opacity: 1; 
+        visibility: visible;}
+    100% { opacity: 0;
+    visibility: hidden;}
+}
+
+.content {
+  margin: auto;
+    width: fit-content; 
+    padding: 50px;
+    text-rendering: 0;
+}
+
+.content {
+    animation: fadeIn 15s;
+    text-rendering: 0;
+}
+ @keyframes fadeIn {
+    0% { opacity: 0; 
+    }
+    50% {opacity: 0;}
+    90% {opacity: 0;}
+    100% { opacity: 1;
+    visibility: visible; 
+    width:max-content;}
+}
+container {
+    size-adjust: 50%;
+    display:block;
+    width:70%;
+    max-height: 70px;
+}

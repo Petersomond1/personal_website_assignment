@@ -1,0 +1,22 @@
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+  }
+
+/* nav {
+    display: flex;
+    justify-content: center;
+  } */
+
+  nav {
+    display: flex;
+    size-adjust: 25%;
+    justify-content: center;
+  }
